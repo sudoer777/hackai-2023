@@ -592,7 +592,8 @@ class CameraFragment : Fragment(), TextToSpeech.OnInitListener {
             contentType(ContentType.Application.Json)
             setBody(ImageReq(imageStr, "ad420c2a-d565-48eb-b963-a8297a0e4000", ImageReqParams(
                 true,
-                "what products are in here? These are things found at the grocery store, nothing else. Also can you be specific about the product, since we are trying to help blind people. They might even be looking at the nutritional label or other parts of the product.",
+                "what is this, the brand",
+                // "what products are in here? These are things found at the grocery store, nothing else. Also can you be specific about the product, since we are trying to help blind people. They might even be looking at the nutritional label or other parts of the product.",
                 "1b626ec2-69e5-44b8-9cec-587c87fa8b0f",
                 false,
                 "",
